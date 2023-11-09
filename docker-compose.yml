@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  node:
+     container_name: api
+     image: pedrohfborges/api-web
+     ports: 
+        - '8080:8080'
+
